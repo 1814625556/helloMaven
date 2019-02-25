@@ -19,8 +19,8 @@ public class AServlet implements Servlet {
 	 * 它也是生命周期方法
 	 * 它会在Servlet被销毁之前调用，并且它只会被调用一次！
 	 */
-@Override
-public void destroy() {
+    @Override
+    public void destroy() {
     System.out.println("destory()...");
 }
 
